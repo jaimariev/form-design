@@ -3,8 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <title>Form Design</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
-  
+  <form class="formContainer">
+    <label for="firstName">First Name </label><br />
+    <input type="text" name="firstname" placeholder="First Name" id="firstName"><br />
+    <label for="lastName">Last Name </label><br />
+    <input type="text" name="lastname" placeholder="Last Name"  id="lastName"><br />
+    <label for="emailAddress">Email Address </label><br />
+    <input type="email" name="email" placeholder="doe@email.com" id="emailAddress"><br />
+    <label for="country">Country </label><br />
+    <select id="country">
+      <option value="choose">Choose a Country</option>
+      <option value="france">France</option>
+      <option value="italy">Italy</option>
+      <option value="portugal">Portugal</option>
+    </select><br />
+    <label for="bio">Biography </label><br />
+    <textarea id="bio"></textarea>
+  </form>
+  <form class="formContainer">
+    <label for="phoneNum">Phone Number </label><br />
+    <input type="number" name="phone" placeholder="+351 999 999" id="phoneNum"><br />
+    <label for="affil">Affiliations </label><br />
+    <textarea id="affil"></textarea><br />
+    <label for="occup">Occupation </label><br />
+    <select id="occup">
+      <option value="choose">Choose an occupation</option>
+      <option value="service">Customer Service</option>
+      <option value="retail">Retail</option>
+      <option value="entertainment">Entertainment</option>
+      <option value="developer">Developer</option>
+    </select><br />
+    <label for="catName">Cat's Name </label><br />
+    <input type="text" name="catname" placeholder="Kitty" id="catName"><br />
+    <label for="faveGadget">Favorite Gadget </label><br />
+    <input type="text" name="gadget" placeholder="Annoy-a-tron" id="faveGadget"><br />
+  </form>
+  <form class="formContainer">
+    <label for="talent">Type of Talent </label><br />
+    <select id="talent">
+      <option value="choose">Choose a talent</option>
+      <option value="sing">Sing</option>
+      <option value="dance">Dance</option>
+      <option value="party">Party</option>
+    </select><br />
+    <label for="faveDrink">Favorite Drink </label><br />
+    <input type="text" name="drink" placeholder="Green Tea" id="faveDrink"><br />
+    <label for="spPower">Special Power </label><br />
+    <input type="text" name="power" placeholder="Anti-gravity" id="spPower"><br />
+    <label for="weaponOfChoice">Weapon of Choice </label><br />
+    <input type="text" name="weapon" placeholder="lightsaber" id="weaponOfChoice"><br />
+    <label for="comments">Comments </label><br />
+    <textarea id="comments"></textarea>
+  </form>
 </body>
 </html>

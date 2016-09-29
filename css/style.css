@@ -1,0 +1,62 @@
+html {
+  width: 1000px;
+  height: 800px;
+  background: #5BA3D6;
+  margin: auto;
+  text-transform: uppercase;
+  font-family: arial;
+  font-size: 10px;
+  color: white;
+}
+
+.formContainer {
+  float: left;
+  margin: 25px;
+}
+
+.formContainer label {
+  margin: 15px;
+}
+
+.formContainer input {
+  width: 235px;
+  margin: 15px;
+  padding: 5px;
+  background: #5ba3d6;
+  color: white;
+  border: 2px solid white;
+}
+
+input:focus {
+  outline: 2px solid #2B6A9A;
+}
+
+::-webkit-input-placeholder {
+   color: #03317a;
+   font-style: italic;
+   font-weight: bold;
+   opacity: 0.4;
+}
+
+.formContainer select {
+  width: 250px;
+  height: 20px;
+  margin: 15px;
+  background: #5ba3d6;
+  color: white;
+}
+
+.formContainer textarea {
+  width: 235px;
+  height: 100px;
+  background: #5ba3d6;
+  border: 2px solid white;
+  margin: 15px;
+  padding: 5px;
+  color: white;
+}
+
+textarea:focus {
+  outline: 2px solid #2B6A9A;
+}
+
