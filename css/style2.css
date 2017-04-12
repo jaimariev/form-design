@@ -1,0 +1,75 @@
+
+html {
+  box-sizing: border-box;
+  width: 1000px;
+  height: 800px;
+  background: #5BA3D6;
+  margin: auto;
+  text-transform: uppercase;
+  font-family: verdana;
+  font-size: 12px;
+  color: white;
+
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.formContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.formContainer > form > input {
+  margin: 8px 0;
+  padding: 5px;
+  background: #5ba3d6;
+  color: white;
+  border: 2px solid white;
+}
+
+input {
+  width: 300px;
+  padding: 5px;
+}
+
+input:focus, textarea:focus {
+  outline: 2px solid #2B6A9A;
+}
+
+::-webkit-input-placeholder {
+   color: #03317a;
+   font-style: italic;
+   font-weight: bold;
+   opacity: 0.4;
+}
+
+#bio, #affil, #comments {
+  height: 150px;
+  width: 300px;
+  outline: none;
+  border: 2px solid white;
+  margin-top: 5px;
+  background: transparent;
+  padding: 5px;
+  color: white;
+}
+
+select {
+  margin: 5px 0;
+  width: 300px;
+  height: 30px;
+  border: 2px solid white;
+}
+
+
+
+
+
+
+
+
+
